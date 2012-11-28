@@ -1,5 +1,8 @@
 (defproject clj-amazon-awis "0.1.0"
   :description "A thin wrapper for the Amazon AWIS API"
+  :url "https://github.com/bruz/aws-amazon-awis"
+  :license {:name "Eclipse Public License"
+            :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.3.0"]
                  [clj-http "0.5.8"]
                  [camel-snake-kebab "0.1.0"]
