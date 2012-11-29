@@ -30,6 +30,8 @@ Up to date Leiningen and Maven configurations are on the
 The [Amazon AWIS documentation](http://docs.amazonwebservices.com/AlexaWebInfoService/latest/)
 is the best source for available options.
 
+Also see the [Marginalia docs](http://bruz.github.com/clj-amazon-awis/).
+
 ## Development
 
 Tests use [Midje](https://github.com/marick/Midje), so to run the test install
