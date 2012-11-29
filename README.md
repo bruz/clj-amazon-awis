@@ -1,5 +1,7 @@
 # clj-amazon-awis
 
+[![Build Status](https://secure.travis-ci.org/bruz/clj-amazon-awis.png)](http://travis-ci.org/bruz/clj-amazon-awis)
+
 A Clojure library for the Amazon Alexa Web Information Services (AWIS) API.
 It's a very light wrapper around the API that returns the response XML as a
 parsed struct-map.
