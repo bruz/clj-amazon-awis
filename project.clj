@@ -1,4 +1,4 @@
-(defproject clj-amazon-awis "0.1.0"
+(defproject clj-amazon-awis "0.1.1"
   :description "A thin wrapper for the Amazon AWIS API"
   :url "https://github.com/bruz/aws-amazon-awis"
   :license {:name "Eclipse Public License"
