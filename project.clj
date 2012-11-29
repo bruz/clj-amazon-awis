@@ -9,4 +9,5 @@
                  [ring "1.1.6"]]
   :dev-dependencies [[midje "1.4.0"]
                      [com.stuartsierra/lazytest "1.2.3"]
-                     [lein-marginalia "0.7.1"]])
+                     [lein-marginalia "0.7.1"]]
+  :repositories {"stuart" "http://stuartsierra.com/maven2"})
