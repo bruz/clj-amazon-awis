@@ -2,7 +2,7 @@
   (:require ring.util.codec)
   (:import (org.apache.commons.codec.binary Base64)))
 
-(defn hmac [msg key]
+(defn hmac [^String msg ^String key]
   (let [algorithm "HmacSHA1"
         key (javax.crypto.spec.SecretKeySpec. (.getBytes key "UTF8") algorithm)
         mac (doto (javax.crypto.Mac/getInstance algorithm)

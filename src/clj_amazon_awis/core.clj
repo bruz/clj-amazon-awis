@@ -15,7 +15,7 @@
     (map #(->CamelCase %) (keys params))
     (vals params)))
 
-(defn get-struct-map [xml]
+(defn get-struct-map [^String xml]
   (let [stream (ByteArrayInputStream. (.getBytes (.trim xml)))]
     (xml/parse stream)))
 
