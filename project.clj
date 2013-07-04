@@ -7,8 +7,6 @@
                  [clj-http "0.5.8"]
                  [clj-time "0.4.4"]
                  [camel-snake-kebab "0.1.0"]]
-  :dev-dependencies [[midje "1.4.0"]
-                     [com.stuartsierra/lazytest "1.2.3"]
-                     [lein-marginalia "0.7.1"]
-                     [lein-midje "1.0.10"]]
-  :repositories {"stuart" "http://stuartsierra.com/maven2"})
+  :profiles {:dev {:dependencies [[midje "1.5.1"]
+                                 [lein-marginalia "0.7.1"]
+                                 [lein-midje "3.0.1"]]}})
